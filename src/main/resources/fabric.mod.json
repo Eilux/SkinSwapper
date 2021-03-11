@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "skin_switcher",
+  "version": "${version}",
+  "name": "Player Skin Switcher",
+  "description": "Place a skin file with the name of the player who's skin you wish to replace in the \"skins_to_replace\" folder in your .minecraft directory.",
+  "icon": "icon.png",
+  "authors": [
+    "Eilux"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "dev.bodner.jack.skin_switcher.client.SkinSwitcherClient"
+    ],
+    "main": [
+      "dev.bodner.jack.skin_switcher.SkinSwitcher"
+    ]
+  },
+  "mixins": [
+    "skin_switcher.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "*"
+  }
+}

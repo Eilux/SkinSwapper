@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.bodner.jack.skin_switcher.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "SkinOverride"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
